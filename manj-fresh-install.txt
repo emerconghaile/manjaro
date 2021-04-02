@@ -9,12 +9,9 @@ install yay-pkglist
     - yay -S --needed $(comm -12 <(yay -Slq | sort) <(sort yay-pkglist.txt))
 
 restart pc
-
+s
 OPEN terminator and execute this script [make script]
 - install terminator theme
-    cd terminator
-    cd ..
-    rm -R terminator
 - change shell to zsh
     chsh -s $(which zsh)
     (logout, log in)
