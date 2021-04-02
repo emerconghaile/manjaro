@@ -4,10 +4,10 @@ git config --global user.name "Emer Conghaile"
 git clone https://github.com/emerconghaile/manjaro.git
 
 
-install pacman-pkglist
+install pkglist
     - sudo pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort pacman-pkglist.txt))
 install yay-pkglist
-    - yay -S --needed $(comm -12 <(yay -Slq | sort) <(sort yay-pkglist.txt))
+    - yay -S --needed - < pkglist.txt
 
 - change shell to zsh
     chsh -s $(which zsh)
