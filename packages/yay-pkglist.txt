@@ -1,0 +1,6 @@
+github-desktop-bin
+google-chrome-dev
+microsoft-edge-dev-bin
+nordvpn-bin
+skypeforlinux-stable-bin
+visual-studio-code-bin

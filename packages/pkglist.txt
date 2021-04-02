@@ -8,6 +8,7 @@ android-udev
 apparmor
 appimagelauncher
 ark
+armitage
 audacity
 autoconf
 automake
@@ -20,7 +21,6 @@ bluedevil
 brave
 btrfs-progs
 bzip2
-cantata
 cdparanoia
 cdrdao
 coreutils
@@ -28,6 +28,7 @@ cpupower
 crda
 cronie
 cryptsetup
+darkhttpd
 device-mapper
 dhclient
 dhcpcd
@@ -64,10 +65,12 @@ gcc-libs
 gettext
 gimp
 github-cli
+github-desktop-bin
 glibc
 gnome-icon-theme
 gnome-notes
 gnome-themes-extra
+google-chrome-dev
 gparted
 grep
 grub
@@ -176,6 +179,7 @@ mesa-vdpau
 metasploit
 mhwd
 mhwd-db
+microsoft-edge-dev-bin
 milou
 mkinitcpio-openswap
 mobile-broadband-provider-info
@@ -184,12 +188,14 @@ mpd
 mtpfs
 nano
 neofetch
+neovim-nightly-bin
 networkmanager
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 nfs-utils
+nordvpn-bin
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -256,6 +262,7 @@ sddm-kcm
 sed
 shadow
 skanlite
+skypeforlinux-stable-bin
 snapd
 snapd-glib
 spectacle
@@ -291,6 +298,7 @@ usbutils
 util-linux
 vcdimager
 vi
+visual-studio-code-bin
 vlc
 vulkan-intel
 vulkan-radeon
