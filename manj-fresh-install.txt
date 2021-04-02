@@ -1,0 +1,22 @@
+git config --global user.email "emerconn7@gmail.com"
+git config --global user.name "Emer Conghaile"
+
+git clone https://github.com/emerconghaile/manjaro.git
+
+install pacman-pkglist
+    - sudo pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort pacman-pkglist.txt))
+install yay-pkglist
+    - yay -S --needed $(comm -12 <(yay -Slq | sort) <(sort yay-pkglist.txt))
+
+restart pc
+
+OPEN terminator and execute this script [make script]
+- install terminator theme
+    cd terminator
+    cd ..
+    rm -R terminator
+- change shell to zsh
+    chsh -s $(which zsh)
+    (logout, log in)
+- install powerlevel10k
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
