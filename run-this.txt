@@ -1,0 +1,2 @@
+sudo pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort pacman-pkglist.txt))
+yay -S --needed $(comm -12 <(yay -Slq | sort) <(sort yay-pkglist.txt))
